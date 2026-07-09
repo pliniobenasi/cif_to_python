@@ -1,0 +1,32 @@
+{
+  "source_path": "/home/bena/GitHub_PB/cif_to_python/examples/coffee_machine.cif",
+  "generated_package_dir": "/tmp/pytest-of-bena/pytest-1/test_escet_behavior_comparison0/generated_coffee_escet_comparison",
+  "generated_files": [
+    "__init__.py",
+    "coffee_machine.py",
+    "constants.py",
+    "factory.py",
+    "runtime.py"
+  ],
+  "supported": true,
+  "warnings": [],
+  "unsupported_features": [],
+  "dynamic_templates": [
+    "CoffeeMachine"
+  ],
+  "algebraic_input_templates": [],
+  "plain_automata": [
+    "CoffeeMachine"
+  ],
+  "expected_instance_counts": {
+    "CoffeeMachine": 1
+  },
+  "generated_instance_counts": {
+    "CoffeeMachine": 1
+  },
+  "input_instance_names": {},
+  "resolved_bindings_count": 0,
+  "resolved_bindings_sample": [],
+  "validation_errors": [],
+  "valid": true
+}

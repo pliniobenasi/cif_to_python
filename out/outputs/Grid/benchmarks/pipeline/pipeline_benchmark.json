@@ -1,0 +1,113 @@
+{
+  "cif_path": "examples/Grid.cif",
+  "generated_dir": "./out/generated/Grid",
+  "hours": 48,
+  "limits": [
+    1,
+    10,
+    100
+  ],
+  "repetitions": 1,
+  "phases": [
+    {
+      "name": "parse",
+      "seconds": 0.22935646073892713,
+      "peak_memory_mb": 23.2265625
+    },
+    {
+      "name": "feature_analysis",
+      "seconds": 0.42091221921145916,
+      "peak_memory_mb": 29.52734375
+    },
+    {
+      "name": "recorded_escet_validation",
+      "seconds": 75.72853511711583,
+      "peak_memory_mb": 29.52734375
+    },
+    {
+      "name": "recorded_feature_analysis",
+      "seconds": 0.935771768912673,
+      "peak_memory_mb": 29.52734375
+    },
+    {
+      "name": "recorded_code_generation",
+      "seconds": 1.1392558198422194,
+      "peak_memory_mb": 29.52734375
+    },
+    {
+      "name": "recorded_translation_manifest",
+      "seconds": 1.765402537304908,
+      "peak_memory_mb": 29.52734375
+    },
+    {
+      "name": "recorded_generated_artifacts",
+      "seconds": 0.001325754914432764,
+      "peak_memory_mb": 29.52734375
+    }
+  ],
+  "simulations": [
+    {
+      "limit": 1,
+      "hours": 48,
+      "repetitions": 1,
+      "build_seconds_mean": 0.4634495200589299,
+      "build_seconds_min": 0.4634495200589299,
+      "build_seconds_max": 0.4634495200589299,
+      "simulation_seconds_mean": 0.01580935064703226,
+      "simulation_seconds_min": 0.01580935064703226,
+      "simulation_seconds_max": 0.01580935064703226,
+      "total_seconds_mean": 0.4792588707059622,
+      "dynamic_modules_instantiated": 3,
+      "input_modules": [
+        "Greenhouse"
+      ],
+      "resolved_bindings_limited": 9,
+      "global_input_bindings_limited": 1,
+      "peak_memory_mb_after_run": 29.52734375
+    },
+    {
+      "limit": 10,
+      "hours": 48,
+      "repetitions": 1,
+      "build_seconds_mean": 0.4354026750661433,
+      "build_seconds_min": 0.4354026750661433,
+      "build_seconds_max": 0.4354026750661433,
+      "simulation_seconds_mean": 0.12298822682350874,
+      "simulation_seconds_min": 0.12298822682350874,
+      "simulation_seconds_max": 0.12298822682350874,
+      "total_seconds_mean": 0.558390901889652,
+      "dynamic_modules_instantiated": 30,
+      "input_modules": [
+        "Greenhouse"
+      ],
+      "resolved_bindings_limited": 90,
+      "global_input_bindings_limited": 10,
+      "peak_memory_mb_after_run": 29.52734375
+    },
+    {
+      "limit": 100,
+      "hours": 48,
+      "repetitions": 1,
+      "build_seconds_mean": 0.4915281808935106,
+      "build_seconds_min": 0.4915281808935106,
+      "build_seconds_max": 0.4915281808935106,
+      "simulation_seconds_mean": 1.24103098269552,
+      "simulation_seconds_min": 1.24103098269552,
+      "simulation_seconds_max": 1.24103098269552,
+      "total_seconds_mean": 1.7325591635890305,
+      "dynamic_modules_instantiated": 300,
+      "input_modules": [
+        "Greenhouse"
+      ],
+      "resolved_bindings_limited": 900,
+      "global_input_bindings_limited": 100,
+      "peak_memory_mb_after_run": 29.52734375
+    }
+  ],
+  "notes": [
+    "Peak memory is measured through resource.getrusage(RUSAGE_SELF).ru_maxrss; it is a process-level estimate.",
+    "Generation is measured once because it is independent from the simulation limit.",
+    "Simulation limit indicates how many instances per dynamic template are instantiated.",
+    "Full manifest bindings: 14400"
+  ]
+}

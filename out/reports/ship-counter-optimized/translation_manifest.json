@@ -1,0 +1,34 @@
+{
+  "source_path": "examples/ship-counter-optimized.cif",
+  "generated_package_dir": "out/generated/ship-counter-optimized",
+  "generated_files": [
+    "__init__.py",
+    "constants.py",
+    "factory.py",
+    "runtime.py",
+    "ship_counter.py"
+  ],
+  "supported": true,
+  "warnings": [
+    "marked predicates beyond simple marked locations are accepted for simulation but are not used as runtime acceptance conditions [MARKED_EXPRESSION]"
+  ],
+  "unsupported_features": [],
+  "dynamic_templates": [
+    "ShipCounter"
+  ],
+  "algebraic_input_templates": [],
+  "plain_automata": [
+    "ShipCounter"
+  ],
+  "expected_instance_counts": {
+    "ShipCounter": 1
+  },
+  "generated_instance_counts": {
+    "ShipCounter": 1
+  },
+  "input_instance_names": {},
+  "resolved_bindings_count": 0,
+  "resolved_bindings_sample": [],
+  "validation_errors": [],
+  "valid": true
+}

@@ -1,0 +1,3 @@
+model,mode,runner,runs,mean_seconds,median_seconds,min_seconds,max_seconds,command
+coffee_machine,event-trace,generic_runtime,1,2.160439277000023,2.160439277000023,2.160439277000023,2.160439277000023,/opt/pyvenv/bin/python3 out/generated/coffee_machine/run_generated_model.py --events-csv examples/coffee_machine_events.csv
+coffee_machine,event-trace,pycrop_host,1,2.1680543209999996,2.1680543209999996,2.1680543209999996,2.1680543209999996,/opt/pyvenv/bin/python3 scripts/pycrop_host_runner.py --pycrop-root ._pycrop/PyCrop_restrict --cif examples/coffee_machine.cif --events-csv examples/coffee_machine_events.csv --seconds 4

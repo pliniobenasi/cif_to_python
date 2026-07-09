@@ -1,0 +1,2 @@
+limit,hours,repetitions,dynamic_modules_instantiated,build_seconds_mean,simulation_seconds_mean,total_seconds_mean,resolved_bindings_limited,global_input_bindings_limited,peak_memory_mb_after_run
+1,1,1,1,0.004248347000157082,3.848999995170743e-06,0.004252196000152253,0,0,301.66015625

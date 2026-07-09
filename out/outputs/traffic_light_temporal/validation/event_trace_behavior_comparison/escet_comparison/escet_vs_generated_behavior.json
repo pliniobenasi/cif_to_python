@@ -1,0 +1,79 @@
+{
+  "report": {
+    "cif": "examples/traffic_light_temporal.cif",
+    "generated_dir": "out/generated/traffic_light_temporal",
+    "output_dir": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/escet_comparison",
+    "generated_trace": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/escet_comparison/generated_trace.csv",
+    "escet_trace": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/escet_comparison/escet_trace.csv",
+    "compared_variables": [
+      "TrafficLight_0_location"
+    ],
+    "compared_cells": 7,
+    "matched_cells": 7,
+    "mismatched_cells": 0,
+    "max_abs_error": null,
+    "status": "pass",
+    "notes": [
+      "Compared 7 aligned samples.",
+      "Comparison is behavioral trace comparison, not source-code comparison."
+    ]
+  },
+  "cells": [
+    {
+      "sample": 0,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Red",
+      "escet_value": "Red",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 1,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Green",
+      "escet_value": "Green",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 2,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Yellow",
+      "escet_value": "Yellow",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 3,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Red",
+      "escet_value": "Red",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 4,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Green",
+      "escet_value": "Green",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 5,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Yellow",
+      "escet_value": "Yellow",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 6,
+      "variable": "TrafficLight_0_location",
+      "generated_value": "Red",
+      "escet_value": "Red",
+      "match": true,
+      "abs_error": null
+    }
+  ]
+}

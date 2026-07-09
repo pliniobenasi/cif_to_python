@@ -1,0 +1,111 @@
+{
+  "report": {
+    "cif": "examples/ship-counter-optimized.cif",
+    "generated_dir": "out/generated/ship-counter-optimized",
+    "output_dir": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/escet_comparison",
+    "generated_trace": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/escet_comparison/generated_trace.csv",
+    "escet_trace": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/escet_comparison/escet_trace.csv",
+    "compared_variables": [
+      "ShipCounter_0_count"
+    ],
+    "compared_cells": 11,
+    "matched_cells": 11,
+    "mismatched_cells": 0,
+    "max_abs_error": 0.0,
+    "status": "pass",
+    "notes": [
+      "Compared 11 aligned samples.",
+      "Comparison is behavioral trace comparison, not source-code comparison."
+    ]
+  },
+  "cells": [
+    {
+      "sample": 0,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "0",
+      "escet_value": "0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 1,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "1",
+      "escet_value": "1",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 2,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "2",
+      "escet_value": "2",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 3,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "3",
+      "escet_value": "3",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 4,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "4",
+      "escet_value": "4",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 5,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "5",
+      "escet_value": "5",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 6,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "4",
+      "escet_value": "4",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 7,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "3",
+      "escet_value": "3",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 8,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "2",
+      "escet_value": "2",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 9,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "1",
+      "escet_value": "1",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 10,
+      "variable": "ShipCounter_0_count",
+      "generated_value": "0",
+      "escet_value": "0",
+      "match": true,
+      "abs_error": 0.0
+    }
+  ]
+}

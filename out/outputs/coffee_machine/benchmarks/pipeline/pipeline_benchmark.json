@@ -1,0 +1,71 @@
+{
+  "cif_path": "examples/coffee_machine.cif",
+  "generated_dir": "/mnt/data/proj_step90/out/generated/coffee_machine",
+  "hours": 1,
+  "limits": [
+    1
+  ],
+  "repetitions": 1,
+  "phases": [
+    {
+      "name": "parse",
+      "seconds": 0.0034216919998470985,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "feature_analysis",
+      "seconds": 0.002983337000159736,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "recorded_escet_validation",
+      "seconds": 6.832013386301696,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "recorded_feature_analysis",
+      "seconds": 0.028286851942539215,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "recorded_code_generation",
+      "seconds": 0.010185582097619772,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "recorded_translation_manifest",
+      "seconds": 0.027004542760550976,
+      "peak_memory_mb": 301.66015625
+    },
+    {
+      "name": "recorded_generated_artifacts",
+      "seconds": 0.002225736156105995,
+      "peak_memory_mb": 301.66015625
+    }
+  ],
+  "simulations": [
+    {
+      "limit": 1,
+      "hours": 1,
+      "repetitions": 1,
+      "build_seconds_mean": 0.004248347000157082,
+      "build_seconds_min": 0.004248347000157082,
+      "build_seconds_max": 0.004248347000157082,
+      "simulation_seconds_mean": 3.848999995170743e-06,
+      "simulation_seconds_min": 3.848999995170743e-06,
+      "simulation_seconds_max": 3.848999995170743e-06,
+      "total_seconds_mean": 0.004252196000152253,
+      "dynamic_modules_instantiated": 1,
+      "input_modules": [],
+      "resolved_bindings_limited": 0,
+      "global_input_bindings_limited": 0,
+      "peak_memory_mb_after_run": 301.66015625
+    }
+  ],
+  "notes": [
+    "Peak memory is measured through resource.getrusage(RUSAGE_SELF).ru_maxrss; it is a process-level estimate.",
+    "Generation is measured once because it is independent from the simulation limit.",
+    "Simulation limit indicates how many instances per dynamic template are instantiated.",
+    "Full manifest bindings: 0"
+  ]
+}

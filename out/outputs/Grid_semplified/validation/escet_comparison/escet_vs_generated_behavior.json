@@ -1,0 +1,1588 @@
+{
+  "report": {
+    "cif": "examples/Grid_semplified.cif",
+    "generated_dir": "./out/generated/Grid_semplified",
+    "output_dir": "./out/outputs/Grid_semplified/validation/escet_comparison",
+    "generated_trace": "./out/outputs/Grid_semplified/validation/escet_comparison/generated_trace.csv",
+    "escet_trace": "./out/outputs/Grid_semplified/validation/escet_comparison/escet_trace.csv",
+    "compared_variables": [
+      "Greenhouse_Rad",
+      "Nodes_0_N",
+      "LAI_0_lai",
+      "Biomass_0_w"
+    ],
+    "compared_cells": 195,
+    "matched_cells": 195,
+    "mismatched_cells": 0,
+    "max_abs_error": 0.0,
+    "status": "pass",
+    "notes": [
+      "Compared 49 aligned samples.",
+      "Comparison is behavioral trace comparison, not source-code comparison.",
+      "Generated trace shifts applied: Greenhouse_Rad=1",
+      "Skipped 1 shifted cells outside the available sample range."
+    ]
+  },
+  "cells": [
+    {
+      "sample": 0,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "300.0",
+      "escet_value": "300.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 0,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 0,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 0,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 1,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "310.0",
+      "escet_value": "310.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 1,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 1,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 1,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 2,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "305.0",
+      "escet_value": "305.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 2,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 2,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 2,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 3,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "295.0",
+      "escet_value": "295.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 3,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 3,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 3,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 4,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "302.0",
+      "escet_value": "302.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 4,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 4,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 4,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 5,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "315.0",
+      "escet_value": "315.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 5,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 5,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 5,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 6,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "320.0",
+      "escet_value": "320.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 6,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 6,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 6,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 7,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "330.0",
+      "escet_value": "330.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 7,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 7,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 7,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 8,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "340.0",
+      "escet_value": "340.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 8,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 8,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 8,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 9,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "345.0",
+      "escet_value": "345.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 9,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 9,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 9,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 10,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "350.0",
+      "escet_value": "350.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 10,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 10,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 10,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 11,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "355.0",
+      "escet_value": "355.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 11,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 11,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 11,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 12,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "360.0",
+      "escet_value": "360.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 12,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 12,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 12,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 13,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "350.0",
+      "escet_value": "350.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 13,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 13,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 13,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 14,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "335.0",
+      "escet_value": "335.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 14,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 14,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 14,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 15,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "320.0",
+      "escet_value": "320.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 15,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 15,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 15,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 16,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "305.0",
+      "escet_value": "305.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 16,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 16,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 16,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 17,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "295.0",
+      "escet_value": "295.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 17,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 17,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 17,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 18,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "285.0",
+      "escet_value": "285.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 18,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 18,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 18,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 19,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "275.0",
+      "escet_value": "275.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 19,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 19,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 19,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 20,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "265.0",
+      "escet_value": "265.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 20,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 20,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 20,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 21,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "255.0",
+      "escet_value": "255.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 21,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 21,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 21,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 22,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "250.0",
+      "escet_value": "250.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 22,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 22,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 22,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 23,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "245.0",
+      "escet_value": "245.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 23,
+      "variable": "Nodes_0_N",
+      "generated_value": "5",
+      "escet_value": "5.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 23,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.015",
+      "escet_value": "0.015",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 23,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 24,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "300.0",
+      "escet_value": "300.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 24,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 24,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 24,
+      "variable": "Biomass_0_w",
+      "generated_value": "0",
+      "escet_value": "0.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 25,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "310.0",
+      "escet_value": "310.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 25,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 25,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 25,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 26,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "305.0",
+      "escet_value": "305.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 26,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 26,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 26,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 27,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "295.0",
+      "escet_value": "295.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 27,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 27,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 27,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 28,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "302.0",
+      "escet_value": "302.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 28,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 28,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 28,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 29,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "315.0",
+      "escet_value": "315.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 29,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 29,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 29,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 30,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "320.0",
+      "escet_value": "320.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 30,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 30,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 30,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 31,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "330.0",
+      "escet_value": "330.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 31,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 31,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 31,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 32,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "340.0",
+      "escet_value": "340.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 32,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 32,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 32,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 33,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "345.0",
+      "escet_value": "345.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 33,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 33,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 33,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 34,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "350.0",
+      "escet_value": "350.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 34,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 34,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 34,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 35,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "355.0",
+      "escet_value": "355.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 35,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 35,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 35,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 36,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "360.0",
+      "escet_value": "360.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 36,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 36,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 36,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 37,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "350.0",
+      "escet_value": "350.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 37,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 37,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 37,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 38,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "335.0",
+      "escet_value": "335.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 38,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 38,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 38,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 39,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "320.0",
+      "escet_value": "320.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 39,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 39,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 39,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 40,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "305.0",
+      "escet_value": "305.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 40,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 40,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 40,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 41,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "295.0",
+      "escet_value": "295.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 41,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 41,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 41,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 42,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "285.0",
+      "escet_value": "285.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 42,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 42,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 42,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 43,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "275.0",
+      "escet_value": "275.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 43,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 43,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 43,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 44,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "265.0",
+      "escet_value": "265.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 44,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 44,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 44,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 45,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "255.0",
+      "escet_value": "255.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 45,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 45,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 45,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 46,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "250.0",
+      "escet_value": "250.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 46,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 46,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 46,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 47,
+      "variable": "Greenhouse_Rad",
+      "generated_value": "245.0",
+      "escet_value": "245.0",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 47,
+      "variable": "Nodes_0_N",
+      "generated_value": "5.509732142857143",
+      "escet_value": "5.509732142857143",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 47,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01588629145205231",
+      "escet_value": "0.01588629145205231",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 47,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 48,
+      "variable": "Nodes_0_N",
+      "generated_value": "6.019464285714285",
+      "escet_value": "6.019464285714285",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 48,
+      "variable": "LAI_0_lai",
+      "generated_value": "0.01700028362834248",
+      "escet_value": "0.01700028362834248",
+      "match": true,
+      "abs_error": 0.0
+    },
+    {
+      "sample": 48,
+      "variable": "Biomass_0_w",
+      "generated_value": "0.6526520534400007",
+      "escet_value": "0.6526520534400007",
+      "match": true,
+      "abs_error": 0.0
+    }
+  ]
+}

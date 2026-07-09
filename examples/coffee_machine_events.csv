@@ -1,0 +1,5 @@
+step,event,target
+0,input_coffee,CoffeeMachine
+1,heat_water,CoffeeMachine
+2,add_water,CoffeeMachine
+3,deliver_cup,CoffeeMachine

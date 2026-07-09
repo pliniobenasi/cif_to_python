@@ -1,0 +1,4 @@
+module_name,generated_path,reference_path,module_only_bleu,module_plus_runtime_bleu,generated_tokens,reference_tokens
+Nodes,./out/generated/Grid/nodes.py,._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGRONodesModule.py,0.006076741120483373,0.017255829688449027,29355,787
+LAI,./out/generated/Grid/lai.py,._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGROLaiModule.py,0.004759596028376098,0.012067441265178705,29230,581
+Biomass,./out/generated/Grid/biomass.py,._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGROBiomassModule.py,0.006729715902068197,0.022506574270933256,42754,1992

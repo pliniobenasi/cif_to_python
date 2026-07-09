@@ -1,0 +1,104 @@
+{
+  "source_path": "examples/Grid_semplified.cif",
+  "supported": true,
+  "dynamic_automata": [
+    "Nodes",
+    "LAI",
+    "Biomass"
+  ],
+  "algebraic_input_automata": [
+    "Greenhouse_template"
+  ],
+  "plain_automata": [],
+  "template_automata": [
+    "Greenhouse_template",
+    "Nodes",
+    "LAI",
+    "Biomass"
+  ],
+  "instance_counts": {
+    "Greenhouse_template": 1,
+    "Nodes": 100,
+    "LAI": 100,
+    "Biomass": 100
+  },
+  "supported_features": [
+    "automata/templates with locations and edges",
+    "template automata with instances",
+    "template instances",
+    "global input declarations",
+    "global constants",
+    "events and event-driven fire(event)",
+    "guards on edges",
+    "discrete updates on edges",
+    "discrete variables",
+    "algebraic variables",
+    "algebraic list input modules",
+    "piecewise if/elif/else expressions in supported expression subset",
+    "common math functions in supported expression subset",
+    "qualified references for binding reconstruction"
+  ],
+  "warnings": [
+    "der(...) continuous derivative syntax detected; translated by current runtime only in a restricted step-based way",
+    "apostrophe derivative syntax detected; translated by current runtime only in a restricted step-based way",
+    "controllable/uncontrollable event kind is mapped to the current runtime event-trigger policy, not full CIF supervisory-control semantics [CONTROLLABLE_UNCONTROLLABLE]",
+    "continuous derivative syntax is handled only in a restricted step-based approximation [CONTINUOUS_DERIVATIVE]"
+  ],
+  "unsupported_features": [],
+  "diagnostics": [
+    {
+      "code": "AUTOMATON",
+      "severity": "supported",
+      "message": "automata are parsed into generated Python modules",
+      "occurrences": 4
+    },
+    {
+      "code": "TEMPLATE_AUTOMATON",
+      "severity": "supported",
+      "message": "template automata are supported when instantiated",
+      "occurrences": 4
+    },
+    {
+      "code": "LOCATION",
+      "severity": "supported",
+      "message": "locations are translated to location state variables",
+      "occurrences": 6
+    },
+    {
+      "code": "EDGE",
+      "severity": "supported",
+      "message": "edges are translated to fire(event) transitions",
+      "occurrences": 10
+    },
+    {
+      "code": "GUARD",
+      "severity": "supported",
+      "message": "guards are translated in the supported expression subset",
+      "occurrences": 10
+    },
+    {
+      "code": "UPDATE",
+      "severity": "supported",
+      "message": "discrete updates are translated in the supported assignment subset",
+      "occurrences": 8
+    },
+    {
+      "code": "ALGEBRAIC",
+      "severity": "supported",
+      "message": "algebraic variables/lists are translated in the supported expression subset",
+      "occurrences": 22
+    },
+    {
+      "code": "CONTROLLABLE_UNCONTROLLABLE",
+      "severity": "warning",
+      "message": "controllable/uncontrollable event kind is mapped to the current runtime event-trigger policy, not full CIF supervisory-control semantics",
+      "occurrences": 5
+    },
+    {
+      "code": "CONTINUOUS_DERIVATIVE",
+      "severity": "warning",
+      "message": "continuous derivative syntax is handled only in a restricted step-based approximation",
+      "occurrences": 5
+    }
+  ]
+}

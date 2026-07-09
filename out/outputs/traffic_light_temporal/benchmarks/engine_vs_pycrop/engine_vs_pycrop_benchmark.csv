@@ -1,0 +1,3 @@
+model,mode,runner,runs,mean_seconds,median_seconds,min_seconds,max_seconds,command
+traffic_light_temporal,event-trace,generic_runtime,10,0.06436403333209455,0.06279628351330757,0.060046860948204994,0.07506661396473646,/usr/bin/python3 out/generated/traffic_light_temporal/run_generated_model.py --events-csv examples/traffic_light_temporal_events.csv
+traffic_light_temporal,event-trace,pycrop_host,10,0.04396078372374177,0.04399340017698705,0.04053780809044838,0.046631695702672005,/usr/bin/python3 scripts/pycrop_host_runner.py --pycrop-root ._pycrop/PyCrop_restrict --cif examples/traffic_light_temporal.cif --events-csv examples/traffic_light_temporal_events.csv --seconds 6

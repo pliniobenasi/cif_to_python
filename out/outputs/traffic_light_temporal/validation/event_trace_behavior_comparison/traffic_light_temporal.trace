@@ -1,0 +1,9 @@
+option strict off
+option time implicit
+
+event tick
+event tick
+event tick
+event tick
+event tick
+event tick

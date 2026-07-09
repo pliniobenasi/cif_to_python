@@ -1,0 +1,40 @@
+{
+  "source_path": "/home/bena/GitHub_PB/cif_to_python/examples/coffee_machine.cif",
+  "supported": true,
+  "dynamic_automata": [
+    "CoffeeMachine"
+  ],
+  "algebraic_input_automata": [],
+  "plain_automata": [
+    "CoffeeMachine"
+  ],
+  "template_automata": [],
+  "instance_counts": {},
+  "supported_features": [
+    "automata/templates with locations and edges",
+    "plain non-template automata",
+    "events and event-driven fire(event)"
+  ],
+  "warnings": [],
+  "unsupported_features": [],
+  "diagnostics": [
+    {
+      "code": "AUTOMATON",
+      "severity": "supported",
+      "message": "automata are parsed into generated Python modules",
+      "occurrences": 1
+    },
+    {
+      "code": "LOCATION",
+      "severity": "supported",
+      "message": "locations are translated to location state variables",
+      "occurrences": 5
+    },
+    {
+      "code": "EDGE",
+      "severity": "supported",
+      "message": "edges are translated to fire(event) transitions",
+      "occurrences": 8
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+sample,variable,generated_value,pycrop_value,match,abs_error
+0,ShipCounter_0_count,0,0,True,0.0
+1,ShipCounter_0_count,1,1,True,0.0
+2,ShipCounter_0_count,2,2,True,0.0
+3,ShipCounter_0_count,3,3,True,0.0
+4,ShipCounter_0_count,4,4,True,0.0
+5,ShipCounter_0_count,5,5,True,0.0
+6,ShipCounter_0_count,4,4,True,0.0
+7,ShipCounter_0_count,3,3,True,0.0
+8,ShipCounter_0_count,2,2,True,0.0
+9,ShipCounter_0_count,1,1,True,0.0
+10,ShipCounter_0_count,0,0,True,0.0

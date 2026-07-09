@@ -1,0 +1,7 @@
+step,event,target
+0,tick,TrafficLight
+1,tick,TrafficLight
+2,tick,TrafficLight
+3,tick,TrafficLight
+4,tick,TrafficLight
+5,tick,TrafficLight

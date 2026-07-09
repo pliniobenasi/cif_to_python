@@ -1,0 +1,21 @@
+{
+  "generated_dir": "out/generated/coffee_machine",
+  "output_dir": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/pycrop_comparison",
+  "generated_trace": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/pycrop_comparison/generated_trace.csv",
+  "pycrop_trace": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_trace.csv",
+  "generated_summary": null,
+  "pycrop_summary": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_summary.json",
+  "compared_variables": [
+    "CoffeeMachine_0_location"
+  ],
+  "compared_cells": 5,
+  "matched_cells": 5,
+  "mismatched_cells": 0,
+  "max_abs_error": null,
+  "status": "pass",
+  "notes": [
+    "Compared 5 aligned samples.",
+    "Comparison is behavioral history comparison, not source-code comparison.",
+    "Trace lengths differ (generated=5, pycrop=7); comparison used the common aligned prefix."
+  ]
+}

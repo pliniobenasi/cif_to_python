@@ -1,0 +1,41 @@
+{
+  "source_path": "examples/traffic_light_temporal.cif",
+  "supported": true,
+  "dynamic_automata": [
+    "TrafficLight"
+  ],
+  "algebraic_input_automata": [],
+  "plain_automata": [
+    "TrafficLight"
+  ],
+  "template_automata": [],
+  "instance_counts": {},
+  "supported_features": [
+    "automata/templates with locations and edges",
+    "plain non-template automata",
+    "events and event-driven fire(event)",
+    "discrete variables"
+  ],
+  "warnings": [],
+  "unsupported_features": [],
+  "diagnostics": [
+    {
+      "code": "AUTOMATON",
+      "severity": "supported",
+      "message": "automata are parsed into generated Python modules",
+      "occurrences": 1
+    },
+    {
+      "code": "LOCATION",
+      "severity": "supported",
+      "message": "locations are translated to location state variables",
+      "occurrences": 3
+    },
+    {
+      "code": "EDGE",
+      "severity": "supported",
+      "message": "edges are translated to fire(event) transitions",
+      "occurrences": 3
+    }
+  ]
+}
