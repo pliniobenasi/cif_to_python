@@ -1,0 +1,102 @@
+{
+  "cif_path": "examples/traffic_light_temporal.cif",
+  "generated_dir": "/home/bena/Programs/PyCoffee/Step94_Escet_trace_fix/out/generated/traffic_light_temporal",
+  "hours": 24,
+  "limits": [
+    1,
+    10,
+    100
+  ],
+  "repetitions": 1,
+  "phases": [
+    {
+      "name": "parse",
+      "seconds": 0.003204341046512127,
+      "peak_memory_mb": 15.5234375
+    },
+    {
+      "name": "feature_analysis",
+      "seconds": 0.0019005215726792812,
+      "peak_memory_mb": 15.5234375
+    },
+    {
+      "name": "recorded_feature_analysis",
+      "seconds": 0.0049137450000102945,
+      "peak_memory_mb": 15.5234375
+    },
+    {
+      "name": "recorded_code_generation",
+      "seconds": 0.0038940569999965646,
+      "peak_memory_mb": 15.5234375
+    },
+    {
+      "name": "recorded_translation_manifest",
+      "seconds": 0.010542600999997376,
+      "peak_memory_mb": 15.5234375
+    },
+    {
+      "name": "recorded_generated_artifacts",
+      "seconds": 0.0028114370000054123,
+      "peak_memory_mb": 15.5234375
+    }
+  ],
+  "simulations": [
+    {
+      "limit": 1,
+      "hours": 24,
+      "repetitions": 1,
+      "build_seconds_mean": 0.0018391888588666916,
+      "build_seconds_min": 0.0018391888588666916,
+      "build_seconds_max": 0.0018391888588666916,
+      "simulation_seconds_mean": 1.6158446669578552e-06,
+      "simulation_seconds_min": 1.6158446669578552e-06,
+      "simulation_seconds_max": 1.6158446669578552e-06,
+      "total_seconds_mean": 0.0018408047035336494,
+      "dynamic_modules_instantiated": 1,
+      "input_modules": [],
+      "resolved_bindings_limited": 0,
+      "global_input_bindings_limited": 0,
+      "peak_memory_mb_after_run": 15.5234375
+    },
+    {
+      "limit": 10,
+      "hours": 24,
+      "repetitions": 1,
+      "build_seconds_mean": 0.0007218504324555397,
+      "build_seconds_min": 0.0007218504324555397,
+      "build_seconds_max": 0.0007218504324555397,
+      "simulation_seconds_mean": 1.4477409422397614e-06,
+      "simulation_seconds_min": 1.4477409422397614e-06,
+      "simulation_seconds_max": 1.4477409422397614e-06,
+      "total_seconds_mean": 0.0007232981733977795,
+      "dynamic_modules_instantiated": 1,
+      "input_modules": [],
+      "resolved_bindings_limited": 0,
+      "global_input_bindings_limited": 0,
+      "peak_memory_mb_after_run": 15.5234375
+    },
+    {
+      "limit": 100,
+      "hours": 24,
+      "repetitions": 1,
+      "build_seconds_mean": 0.0014719627797603607,
+      "build_seconds_min": 0.0014719627797603607,
+      "build_seconds_max": 0.0014719627797603607,
+      "simulation_seconds_mean": 2.018176019191742e-06,
+      "simulation_seconds_min": 2.018176019191742e-06,
+      "simulation_seconds_max": 2.018176019191742e-06,
+      "total_seconds_mean": 0.0014739809557795525,
+      "dynamic_modules_instantiated": 1,
+      "input_modules": [],
+      "resolved_bindings_limited": 0,
+      "global_input_bindings_limited": 0,
+      "peak_memory_mb_after_run": 15.5234375
+    }
+  ],
+  "notes": [
+    "Peak memory is measured through resource.getrusage(RUSAGE_SELF).ru_maxrss; it is a process-level estimate.",
+    "Generation is measured once because it is independent from the simulation limit.",
+    "Simulation limit indicates how many instances per dynamic template are instantiated.",
+    "Full manifest bindings: 0"
+  ]
+}

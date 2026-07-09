@@ -1,0 +1,22 @@
+event input_coffee;
+event heat_water;
+event add_water;
+event deliver_cup;
+event stop;
+event reset;
+automaton CoffeeMachine:
+  location WaitingOrder:
+    initial;
+    edge input_coffee goto GrindingCoffee;
+  location GrindingCoffee:
+    edge heat_water goto HeatingWater;
+    edge stop goto EmergencyMode;
+  location HeatingWater:
+    edge add_water goto ExtractingCoffee;
+    edge stop goto EmergencyMode;
+  location ExtractingCoffee:
+    edge deliver_cup goto WaitingOrder;
+    edge stop goto EmergencyMode;
+  location EmergencyMode:
+    edge reset goto WaitingOrder;
+end

@@ -1,0 +1,63 @@
+{
+  "source_path": "examples/ship-counter-optimized.cif",
+  "supported": true,
+  "dynamic_automata": [
+    "ShipCounter"
+  ],
+  "algebraic_input_automata": [],
+  "plain_automata": [
+    "ShipCounter"
+  ],
+  "template_automata": [],
+  "instance_counts": {},
+  "supported_features": [
+    "automata/templates with locations and edges",
+    "plain non-template automata",
+    "events and event-driven fire(event)",
+    "guards on edges",
+    "discrete updates on edges",
+    "discrete variables"
+  ],
+  "warnings": [
+    "marked predicates beyond simple marked locations are accepted for simulation but are not used as runtime acceptance conditions [MARKED_EXPRESSION]"
+  ],
+  "unsupported_features": [],
+  "diagnostics": [
+    {
+      "code": "AUTOMATON",
+      "severity": "supported",
+      "message": "automata are parsed into generated Python modules",
+      "occurrences": 1
+    },
+    {
+      "code": "LOCATION",
+      "severity": "supported",
+      "message": "locations are translated to location state variables",
+      "occurrences": 1
+    },
+    {
+      "code": "EDGE",
+      "severity": "supported",
+      "message": "edges are translated to fire(event) transitions",
+      "occurrences": 2
+    },
+    {
+      "code": "GUARD",
+      "severity": "supported",
+      "message": "guards are translated in the supported expression subset",
+      "occurrences": 2
+    },
+    {
+      "code": "UPDATE",
+      "severity": "supported",
+      "message": "discrete updates are translated in the supported assignment subset",
+      "occurrences": 2
+    },
+    {
+      "code": "MARKED_EXPRESSION",
+      "severity": "warning",
+      "message": "marked predicates beyond simple marked locations are accepted for simulation but are not used as runtime acceptance conditions",
+      "occurrences": 1
+    }
+  ]
+}

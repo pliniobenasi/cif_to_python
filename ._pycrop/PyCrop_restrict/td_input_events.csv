@@ -1,0 +1,10 @@
+time,m00,m01,m10,m11
+0,input_coffee,input_coffee,,
+1,heat_water,stop,,
+2,add_water,,,
+3,deliver_cup,,,
+4,,reset,,
+5,,,input_coffee,
+6,,,heat_water,
+7,,,add_water,
+8,,,deliver_cup,

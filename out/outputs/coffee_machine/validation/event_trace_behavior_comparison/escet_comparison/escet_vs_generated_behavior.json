@@ -1,0 +1,63 @@
+{
+  "report": {
+    "cif": "examples/coffee_machine.cif",
+    "generated_dir": "out/generated/coffee_machine",
+    "output_dir": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/escet_comparison",
+    "generated_trace": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/escet_comparison/generated_trace.csv",
+    "escet_trace": "out/outputs/coffee_machine/validation/event_trace_behavior_comparison/escet_comparison/escet_trace.csv",
+    "compared_variables": [
+      "CoffeeMachine_0_location"
+    ],
+    "compared_cells": 5,
+    "matched_cells": 5,
+    "mismatched_cells": 0,
+    "max_abs_error": null,
+    "status": "pass",
+    "notes": [
+      "Compared 5 aligned samples.",
+      "Comparison is behavioral trace comparison, not source-code comparison."
+    ]
+  },
+  "cells": [
+    {
+      "sample": 0,
+      "variable": "CoffeeMachine_0_location",
+      "generated_value": "WaitingOrder",
+      "escet_value": "WaitingOrder",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 1,
+      "variable": "CoffeeMachine_0_location",
+      "generated_value": "GrindingCoffee",
+      "escet_value": "GrindingCoffee",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 2,
+      "variable": "CoffeeMachine_0_location",
+      "generated_value": "HeatingWater",
+      "escet_value": "HeatingWater",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 3,
+      "variable": "CoffeeMachine_0_location",
+      "generated_value": "ExtractingCoffee",
+      "escet_value": "ExtractingCoffee",
+      "match": true,
+      "abs_error": null
+    },
+    {
+      "sample": 4,
+      "variable": "CoffeeMachine_0_location",
+      "generated_value": "WaitingOrder",
+      "escet_value": "WaitingOrder",
+      "match": true,
+      "abs_error": null
+    }
+  ]
+}

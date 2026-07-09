@@ -1,0 +1,22 @@
+{
+  "note": "Timing report for the single code-generation point cif_to_python.py",
+  "phases": [
+    {
+      "name": "feature_analysis",
+      "seconds": 0.0068974276073277
+    },
+    {
+      "name": "code_generation",
+      "seconds": 0.003217326942831278
+    },
+    {
+      "name": "translation_manifest",
+      "seconds": 0.009414922911673784
+    },
+    {
+      "name": "generated_artifacts",
+      "seconds": 0.0006380211561918259
+    }
+  ],
+  "total_seconds": 0.020167698618024588
+}

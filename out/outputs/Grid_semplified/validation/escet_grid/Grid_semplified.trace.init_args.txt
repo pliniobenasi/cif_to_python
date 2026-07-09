@@ -1,0 +1,4 @@
+--init=T_in:20.0
+--init=Rad:300.0
+--init=T_mean:21.0
+--init=T_daytime_mean:22.0

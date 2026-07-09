@@ -1,0 +1,6 @@
+sample,variable,generated_value,escet_value,match,abs_error
+0,CoffeeMachine_0_location,WaitingOrder,WaitingOrder,True,
+1,CoffeeMachine_0_location,GrindingCoffee,GrindingCoffee,True,
+2,CoffeeMachine_0_location,HeatingWater,HeatingWater,True,
+3,CoffeeMachine_0_location,ExtractingCoffee,ExtractingCoffee,True,
+4,CoffeeMachine_0_location,WaitingOrder,WaitingOrder,True,

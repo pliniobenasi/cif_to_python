@@ -1,0 +1,8 @@
+{
+  "behavior_validation_passed": true,
+  "behavior_report": "./out/outputs/Grid/validation/grid_validation/behavior/grid_behavior_validation.md",
+  "behavior_csv": "./out/outputs/Grid/validation/grid_validation/behavior/grid_behavior_summary.csv",
+  "reference_similarity_enabled": true,
+  "reference_similarity_report": "./out/outputs/Grid/validation/grid_validation/reference_similarity/code_bleu_similarity.md",
+  "reference_similarity_pairs": 3
+}

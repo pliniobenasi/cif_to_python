@@ -1,0 +1,20 @@
+{
+  "generated_dir": "out/generated/ship-counter-optimized",
+  "output_dir": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/pycrop_comparison",
+  "generated_trace": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/pycrop_comparison/generated_trace.csv",
+  "pycrop_trace": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_trace.csv",
+  "generated_summary": null,
+  "pycrop_summary": "out/outputs/ship-counter-optimized/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_summary.json",
+  "compared_variables": [
+    "ShipCounter_0_count"
+  ],
+  "compared_cells": 11,
+  "matched_cells": 11,
+  "mismatched_cells": 0,
+  "max_abs_error": 0.0,
+  "status": "pass",
+  "notes": [
+    "Compared 11 aligned samples.",
+    "Comparison is behavioral history comparison, not source-code comparison."
+  ]
+}

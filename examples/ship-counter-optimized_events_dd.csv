@@ -1,0 +1,12 @@
+step,event,target
+0,ship_enters,ShipCounter
+1,ship_enters,ShipCounter
+2,ship_enters,ShipCounter
+3,ship_enters,ShipCounter
+3,ship_enters,ShipCounter
+4,ship_enters,ShipCounter
+5,ship_leaves,ShipCounter
+6,ship_leaves,ShipCounter
+7,ship_leaves,ShipCounter
+8,ship_leaves,ShipCounter
+9,ship_leaves,ShipCounter

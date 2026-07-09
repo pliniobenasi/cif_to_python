@@ -1,0 +1,20 @@
+{
+  "generated_dir": "out/generated/traffic_light_temporal",
+  "output_dir": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/pycrop_comparison",
+  "generated_trace": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/pycrop_comparison/generated_trace.csv",
+  "pycrop_trace": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_trace.csv",
+  "generated_summary": null,
+  "pycrop_summary": "out/outputs/traffic_light_temporal/validation/event_trace_behavior_comparison/pycrop_comparison/pycrop_summary.json",
+  "compared_variables": [
+    "TrafficLight_0_location"
+  ],
+  "compared_cells": 7,
+  "matched_cells": 7,
+  "mismatched_cells": 0,
+  "max_abs_error": null,
+  "status": "pass",
+  "notes": [
+    "Compared 7 aligned samples.",
+    "Comparison is behavioral history comparison, not source-code comparison."
+  ]
+}

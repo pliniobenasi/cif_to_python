@@ -1,0 +1,11 @@
+automaton ShipCounter:
+  event ship_enters;
+  event ship_leaves;
+  disc int count = 0;
+  marked count = 0;
+  location Counter:
+    initial;
+    marked;
+    edge ship_enters when count < 5 do count := count + 1 goto Counter;
+    edge ship_leaves when count > 0 do count := count - 1 goto Counter;
+end

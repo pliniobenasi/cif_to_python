@@ -1,0 +1,14 @@
+option strict off
+option time implicit
+
+event ShipCounter.ship_enters
+event ShipCounter.ship_enters
+event ShipCounter.ship_enters
+event ShipCounter.ship_enters
+event ShipCounter.ship_enters
+event ShipCounter.ship_enters
+event ShipCounter.ship_leaves
+event ShipCounter.ship_leaves
+event ShipCounter.ship_leaves
+event ShipCounter.ship_leaves
+event ShipCounter.ship_leaves

@@ -1,0 +1,15 @@
+event tick;
+
+automaton TrafficLight:
+    disc int granularity = 3600;
+
+    location Red:
+        initial;
+        edge tick goto Green;
+
+    location Green:
+        edge tick goto Yellow;
+
+    location Yellow:
+        edge tick goto Red;
+end

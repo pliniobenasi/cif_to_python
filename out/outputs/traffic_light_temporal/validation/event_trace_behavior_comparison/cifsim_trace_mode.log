@@ -1,0 +1,25 @@
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+WARNING: File "examples/traffic_light_temporal.cif": Semantic warning at line 4, column 14: Discrete variable "TrafficLight.granularity" is effectively constant, as it is never assigned. Replace it by a constant.
+WARNING: File "examples/traffic_light_temporal.cif": Semantic warning at line 4, column 14: Discrete variable "TrafficLight.granularity" is not used anywhere in the specification.
+Using seed 1055238373 for random automatic mode choice algorithm.
+Initial state: time=0.0, TrafficLight=Red, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Green, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Yellow, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Red, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Green, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Yellow, TrafficLight.granularity=3600
+
+Transition: event tick
+State: time=0.0, TrafficLight=Red, TrafficLight.granularity=3600
+
+Simulation was terminated per the user's request.

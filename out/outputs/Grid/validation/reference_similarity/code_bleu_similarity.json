@@ -1,0 +1,29 @@
+[
+  {
+    "module_name": "Nodes",
+    "generated_path": "./out/generated/Grid/nodes.py",
+    "reference_path": "._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGRONodesModule.py",
+    "module_only_bleu": 0.006076741120483373,
+    "module_plus_runtime_bleu": 0.017255829688449027,
+    "generated_tokens": 29355,
+    "reference_tokens": 787
+  },
+  {
+    "module_name": "LAI",
+    "generated_path": "./out/generated/Grid/lai.py",
+    "reference_path": "._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGROLaiModule.py",
+    "module_only_bleu": 0.004759596028376098,
+    "module_plus_runtime_bleu": 0.012067441265178705,
+    "generated_tokens": 29230,
+    "reference_tokens": 581
+  },
+  {
+    "module_name": "Biomass",
+    "generated_path": "./out/generated/Grid/biomass.py",
+    "reference_path": "._pycrop/PyCrop_restrict/PyCrop/Implementations/TOMGRO/TOMGROBiomassModule.py",
+    "module_only_bleu": 0.006729715902068197,
+    "module_plus_runtime_bleu": 0.022506574270933256,
+    "generated_tokens": 42754,
+    "reference_tokens": 1992
+  }
+]

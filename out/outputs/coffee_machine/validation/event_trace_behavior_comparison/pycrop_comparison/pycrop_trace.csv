@@ -1,0 +1,8 @@
+sample,CoffeeMachine_0_location
+0,WaitingOrder
+1,GrindingCoffee
+2,HeatingWater
+3,ExtractingCoffee
+4,WaitingOrder
+5,WaitingOrder
+6,WaitingOrder

@@ -1,0 +1,4 @@
+# Core pipeline uses Python standard library only.
+# Optional development/test dependency:
+pytest>=8
+# PyCrop hosting mode expects a local PyCrop checkout/archive provided separately.

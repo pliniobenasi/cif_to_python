@@ -1,0 +1,24 @@
+[
+  {
+    "model": "coffee_machine",
+    "mode": "event-trace",
+    "runner": "generic_runtime",
+    "runs": 1,
+    "mean_seconds": 2.160439277000023,
+    "median_seconds": 2.160439277000023,
+    "min_seconds": 2.160439277000023,
+    "max_seconds": 2.160439277000023,
+    "command": "/opt/pyvenv/bin/python3 out/generated/coffee_machine/run_generated_model.py --events-csv examples/coffee_machine_events.csv"
+  },
+  {
+    "model": "coffee_machine",
+    "mode": "event-trace",
+    "runner": "pycrop_host",
+    "runs": 1,
+    "mean_seconds": 2.1680543209999996,
+    "median_seconds": 2.1680543209999996,
+    "min_seconds": 2.1680543209999996,
+    "max_seconds": 2.1680543209999996,
+    "command": "/opt/pyvenv/bin/python3 scripts/pycrop_host_runner.py --pycrop-root ._pycrop/PyCrop_restrict --cif examples/coffee_machine.cif --events-csv examples/coffee_machine_events.csv --seconds 4"
+  }
+]

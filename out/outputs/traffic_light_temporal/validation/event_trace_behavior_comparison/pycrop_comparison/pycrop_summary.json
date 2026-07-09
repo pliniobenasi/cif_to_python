@@ -1,0 +1,14 @@
+{
+  "engine_name": "PyCropGeneratedEngine",
+  "generated_dir": "out/generated/traffic_light_temporal",
+  "mode": "event",
+  "module_count": 1,
+  "input_module_count": 1,
+  "manifest_dynamic_templates": [
+    "TrafficLight"
+  ],
+  "summary": {
+    "TrafficLight_0_location": "Red",
+    "TrafficLight_0_granularity": 3600
+  }
+}

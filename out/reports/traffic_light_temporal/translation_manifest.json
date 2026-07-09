@@ -1,0 +1,32 @@
+{
+  "source_path": "examples/traffic_light_temporal.cif",
+  "generated_package_dir": "/mnt/data/traffic_work/out/generated/traffic_light_temporal",
+  "generated_files": [
+    "__init__.py",
+    "constants.py",
+    "factory.py",
+    "runtime.py",
+    "traffic_light.py"
+  ],
+  "supported": true,
+  "warnings": [],
+  "unsupported_features": [],
+  "dynamic_templates": [
+    "TrafficLight"
+  ],
+  "algebraic_input_templates": [],
+  "plain_automata": [
+    "TrafficLight"
+  ],
+  "expected_instance_counts": {
+    "TrafficLight": 1
+  },
+  "generated_instance_counts": {
+    "TrafficLight": 1
+  },
+  "input_instance_names": {},
+  "resolved_bindings_count": 0,
+  "resolved_bindings_sample": [],
+  "validation_errors": [],
+  "valid": true
+}

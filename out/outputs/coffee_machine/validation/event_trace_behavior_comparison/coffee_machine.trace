@@ -1,0 +1,7 @@
+option strict off
+option time implicit
+
+event input_coffee
+event heat_water
+event add_water
+event deliver_cup

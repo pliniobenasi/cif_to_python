@@ -1,0 +1,14 @@
+{
+  "engine_name": "PyCropGeneratedEngine",
+  "generated_dir": "out/generated/ship-counter-optimized",
+  "mode": "event",
+  "module_count": 1,
+  "input_module_count": 1,
+  "manifest_dynamic_templates": [
+    "ShipCounter"
+  ],
+  "summary": {
+    "ShipCounter_0_location": "Counter",
+    "ShipCounter_0_count": 0
+  }
+}

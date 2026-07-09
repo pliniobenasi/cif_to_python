@@ -1,0 +1,67 @@
+Picked up _JAVA_OPTIONS: -Djava.net.preferIPv4Stack=true
+Using seed 461758535 for random automatic mode choice algorithm.
+Initial state: time=0.0, ShipCounter=Counter, ShipCounter.count=0
+
+Transition: event ShipCounter.ship_enters
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=1
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_enters
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=2
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_enters
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=3
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_enters
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=4
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_enters
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=5
+
+Transition: event ShipCounter.ship_leaves
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=4
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_leaves
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=3
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_leaves
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=2
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_leaves
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=1
+
+Possible transitions:
+  #1: event ShipCounter.ship_enters
+  #2: event ShipCounter.ship_leaves
+
+Transition: event ShipCounter.ship_leaves
+State: time=0.0, ShipCounter=Counter, ShipCounter.count=0
+
+Simulation was terminated per the user's request.

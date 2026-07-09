@@ -1,0 +1,8 @@
+sample,variable,generated_value,escet_value,match,abs_error
+0,TrafficLight_0_location,Red,Red,True,
+1,TrafficLight_0_location,Green,Green,True,
+2,TrafficLight_0_location,Yellow,Yellow,True,
+3,TrafficLight_0_location,Red,Red,True,
+4,TrafficLight_0_location,Green,Green,True,
+5,TrafficLight_0_location,Yellow,Yellow,True,
+6,TrafficLight_0_location,Red,Red,True,
